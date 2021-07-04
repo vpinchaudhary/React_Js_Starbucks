@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'sodo';
+    font-weight: 300;
+    src: url('./fonts/SoDo Thin.woff') format('woff');
+  }
+  ,
+  @font-face {
+    font-family: 'sodo';
+    font-weight: 500;
+    src: url('./fonts/SoDo Normal.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'sodo';
+    font-weight: 700;
+    src: url('./fonts/SoDo Bold.woff') format('woff');
+  }
+}
